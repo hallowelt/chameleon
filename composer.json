@@ -43,9 +43,7 @@
 		}
 	},
 	"extra"      : {
-		"branch-alias": {
-			"dev-master": "1.x-dev"
-		}
+		"installer-name": "Chameleon"
 	},
 	"scripts": {
 		"phpunit": "php ../../tests/phpunit/phpunit.php -c phpunit.xml.dist",
