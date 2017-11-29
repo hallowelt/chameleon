@@ -24,12 +24,16 @@
 		"issues": "https://github.com/cmln/chameleon/issues",
 		"irc"   : "irc://irc.freenode.org/mediawiki"
 	},
+	"repositories": [{
+    		"type": "composer",
+    		"url": "https://packages.bluespice.com/"
+  	}],
 	"require"    : {
 		"php"                : ">=5.3.2",
 		"ext-dom"            : "*",
 		"ext-filter"         : "*",
 		"composer/installers": ">1.0.12",
-		"mediawiki/bootstrap": "~1.1"
+		"hallowelt/bootstrap": "dev-master"
 	},
 	"autoload"   : {
 		"files": [ "Chameleon.php", "src/SkinChameleon.php" ],
