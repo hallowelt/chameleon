@@ -1,5 +1,5 @@
 {
-	"name"       : "hallowelt/chameleon-skin",
+	"name"       : "mediawiki/chameleon-skin",
 	"type"       : "mediawiki-skin",
 	"description": "A highly flexible MediaWiki skin using Twitter Bootstrap 3",
 	"keywords"   : [
@@ -24,16 +24,11 @@
 		"issues": "https://github.com/cmln/chameleon/issues",
 		"irc"   : "irc://irc.freenode.org/mediawiki"
 	},
-	"repositories": [{
-    		"type": "composer",
-    		"url": "https://packages.bluespice.com/"
-  	}],
 	"require"    : {
 		"php"                : ">=5.3.2",
 		"ext-dom"            : "*",
 		"ext-filter"         : "*",
-		"composer/installers": ">1.0.12",
-		"hallowelt/bootstrap": "dev-master"
+		"composer/installers": ">1.0.12"
 	},
 	"autoload"   : {
 		"files": [ "Chameleon.php", "src/SkinChameleon.php" ],
